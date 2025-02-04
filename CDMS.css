@@ -4,7 +4,14 @@ body {
   /*background: #2E4053;*/
   /* background: #D5D8DC */
   /* background: #AED6F1 */
-  background: #5D6D7E
+  /*background: #5D6D7E*/
+  /* background: #3A1E1A */
+  /* background: #543B36 */
+  /* background: #614A45 */
+  /* background: #78605B */
+  /* background: #967C76 */
+  /* background: #A38F8B */
+  background: #f6ddcc
 }
 
 .theme-dropdown .dropdown-menu {
@@ -69,35 +76,35 @@ h1 {
 	font-size: 24px;
 	font-weight: normal;
 	font-style: normal;
-	color: #023265;
+	color: #3A1E1A;
 }
 h2 {
 	font-family: Arial, Verdana, Arial, Helvetica, sans-serif;
 	font-size: 20px;
 	font-weight: normal;
 	font-style: normal;
-	color: #023265;
+	color: #3A1E1A;
 }
 h3 {
 	font-family: Arial, Verdana, Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	font-weight: normal;
 	font-style: normal;
-	color: #023265;
+	color: #3A1E1A;
 }
 h4 {
 
-	color: #023265;
+	color: #3A1E1A;
 }
 h5 {
-	color: #023265;
+	color: #3A1E1A;
 }
 h6{
 	font-family: Arial, Verdana, Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	font-style: normal;
-	color: 		#023265;
+	color: 		#3A1E1A;
 }
 
 p {
@@ -123,7 +130,7 @@ a:hover {
 
 .navbar-default {
     background-color: #111111;
-    border-color: #033D7B;
+    border-color: #21110f;
 }
 
 .news-para {
