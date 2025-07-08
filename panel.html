@@ -114,7 +114,7 @@
         <center>
           <table id="moderator" border=0>
 	    <tr><td width=30%><center><img src="images/CMohan.jpg" width="20%"><center></td></tr>
-            <tr><td><center><b><font size="2%" color="#2E4053">C. Mohan<br> Distinguished Professor of Science (Hong Kong Baptist University, China) , Distinguished Visiting Professor (Tsinghua University, China) , Retired IBM Fellow (IBM Research, USA)</font></b></center></td></tr>
+            <tr><td><center><b><font size="2%" color="#2E4053">C. Mohan<br> Distinguished Professor of Science (Hong Kong Baptist University, China) ,<br>Distinguished Visiting Professor (Tsinghua University, China) ,<br>Retired IBM Fellow (IBM Research, USA)</font></b></center></td></tr>
           </table>
         </center><br><br>
 
@@ -131,6 +131,14 @@
 	    </tr>
           </table>
         </center><br><br>
+	<center>
+          <table id="abstract" border=0>
+	    <tr>
+		    <td><center><b>Abstract: </b> For the longest time, there were two distinct classes of database management systems (DBMSs): Online Transaction Processing (OLTP) and Online Analytical Processing (OLAP). These systems were architected internally to handle distinct types of workloads, with different response time and throughput requirements. Over time, even the storage formats of the persistent data began to diverge in these systems: row stores for OLTP and column stores for OLAP. As the OLTP databases got updated, the modified data was replicated incrementally to OLAP systems for analytics to be performed on the somewhat out-of-date data in the OLAP databases. But, in the last decade or so, there has been an increased demand for both OLTP and OLAP workloads to be run on a single instance of the database so that the analytics is based on the latest data. Such systems have come to be called Hybrid Transactional and Analytical Processing (HTAP) systems. Over the decades, another trend in the architecture of DBMSs has been to apply extensibility and composability ideas of software engineering in building modern DBMSs. Such ideas made it easier to extend existing DBMSs with new external and internal functionalities like support for new datatypes, operators, access and join methods, storage formats, networking/storage/processor/AI technologies, etc.<br>
+In this panel, we will examine the role of composability in the building of HTAP systems, especially while evolving a pre-existing OLTP or OLAP system to make it a HTAP system. The panelists will discuss systems like Google AlloyDB, IBM Db2, Oracle, SAP Hana, SingleStore and TiDB. </center></td>
+	    </tr>
+          </table>
+        </center>
 				<div class="table-responsive">
 					<center>
 						<table class="table table-borderless">
