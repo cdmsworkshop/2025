@@ -118,6 +118,7 @@
 	<li><h3><a href="#keynotestart"><i>A Historical Perspective on Extensible and Composable Data Systems</i> by <i>C. Mohan</i></a></h3></li>
 	<li><h3><a href="#keynote2"><i>Speedrunning a lakehouse: a composable FaaS over object storage</i> by <i>Jacopo Tagliabue</i></a></h3></li>
 	<li><h3><a href="#keynote3"><i>Theseus a Composable distributed execution runtime: Performance across GPUs, Networks, and Storage</i> by <i>Felipe Aramburu</i></a></h3></li>
+	<li><h3><a href="#keynote4"><i>What PostgreSQL Extensibility Can Teach Us About Composable Data Management Systems</i> by <i>Abigale Kim</i></a></h3></li>
 </ul>
 				<hr>
 				<p id="keynotestart"></p>
@@ -153,6 +154,18 @@ Dissatisfied with existing models, we built a composable system on top of object
 					<p align="justify"><font color="#2E4053" size="3%"><b>Speaker Bio:</b> Felipe has been working on accelerated SQL engines and CUDA computational primitives for over a decade. At Voltron Data, he is the Architect of Theseus, a distributed SQL engine that runs on AMD and Nvidia GPUs. His main focus is optimizing DataFlow architectures in the context of distributed ETL, AI, and ML.</font></p>
 					<p align="justify"><font color="#2E4053" size="3%"><b>Abstract:</b>During this talk we will discuss how Theseus, a composable distributed execution framework, leverages composability to be scalable and performant across multiple compute accelerators and highly varied hardware configurations. We will start out by looking at two different systems. The first one is an on prem deployment with fast networking, high performant centralized storage, and larger GPUs. The second is by leveraging commodity hardware available in the cloud where networking is slower, data is read from slower object stores, and smaller GPUs are leveraged.<br>
 We will then discuss how composability allows us to map our software to the hardware we are working with. First we will discuss two of our communication protocols one leveraging UCX and the other leveraging TCP with boost asio and how these perform on our two respective systems. After this we will discuss two different abstractions for reading bytes from input files. The first leverages GPU Direct Storage with Weka in an on prem deployment and the second is used to read files that are stored in S3. Lastly we will discuss using composability to target multiple hardware accelerators showing a back end agnostic task execution framework that allows you to create tasks that target multiple backends and memory spaces in a single process. </font></p>
+					</td>
+					</tr>
+      </table>
+			<hr>
+				<table id="keynote4" border=0>
+					<tr>
+						<td width=30%><center><img src="images/AbigaleKim.jpg" width="60%"><center></td>
+						<td valign=top><b><font size="4%" color="#212F3C">Title: <i>What PostgreSQL Extensibility Can Teach Us About Composable Data Management Systems</i></font></b><br><br>
+							<b><font size="4%" color="#212F3C">Speaker: <i>Abigale Kim, Ph.D. Student, University of Wisconsin—Madison</i></font></b><br><br>
+					<p align="justify"><font color="#2E4053" size="3%"><b>Speaker Bio:</b> Abigale Kim is a PhD student with Prof. Xiangyao Yu at the University of Wisconsin—Madison, where she studies GPU accelerated database systems. Previously, she was a Master’s student with Prof. Andrew Pavlo at Carnegie Mellon University, where she researched database system extensibility. She has also worked on various database systems in industry (TileDB, YugabyteDB, AWS Redshift). She completed her undergraduate degree at Carnegie Mellon University with a concentration in computer systems.</font></p>
+					<p align="justify"><font color="#2E4053" size="3%"><b>Abstract:</b> Many well-known database systems allow users to write extensions, which is custom code that adds new
+features to a DBMS while maintaining its core functionality and infrastructure. Our analysis of database system extensibility reveals that PostgreSQL has the most flexible extension API. PostgreSQL’s extension API allows users to override much of the core DBMS’s functionality, including the entire query execution layer. Some extensions (e.g., Citus, Timescale, Apache Age) are essentially unique systems that utilize the PostgreSQL codebase structure as a skeleton. Analyzing these extensions and the APIs exposed by PostgreSQL that allow these extensions to exist yields many valuable insights about composability. In this talk, we will cover the lessons that PostgreSQL’s extension API provides to database system composability. </font></p>
 					</td>
 					</tr>
       </table>
